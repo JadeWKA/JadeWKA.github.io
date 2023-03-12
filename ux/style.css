@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Oswald:wght@200&family=Sacramento&display=swap');
+
+body{
+  background-color: #81AE95 ;
+}
+
+ /* navbar, navbar items and logo */
+
+#navbar{
+    font-family: 'Oswald', sans-serif;
+	  background-color: #E3F4D1 !important; 
+    box-shadow: 0px 5px 0px 0px #A8D79B;
+}
+
+.line{
+  background-color: #A8D79B;
+  width: 100%;
+  padding: 2px;
+}
+
+#logo{
+font-family: 'Bodoni Moda', serif;
+font-style: italic;
+font-size: 40px;
+color: #185551;
+margin-left: 40px;
+}
+
+.nav-link{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  color: #074f4a;
+  transform: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  }
+
+
+.container-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar-button{
+  width: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 1rem;
+  color: #053d39;
+}
+/* Navbar */
+
+/* general setting of class container */
+.container{
+  width: 100%;
+}
+/* general setting of class container */
+
+/* general setting of column container */
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* general setting of column container */
+
+/* container1 */
+
+#container1{
+  padding: 8vh;
+  padding-top: 18vh;
+  padding-bottom: 18vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#instagram{
+  width: 20vw;
+  transform: rotate(-5deg);
+  transition: transform .7s ease-in-out;
+  margin-right: 5vw;
+}
+
+#instagram:hover {
+  transform: rotate(5deg);
+}
+
+.header{
+  font-family: 'Bodoni', serif;
+}
+
+#title{
+  font-size: 5.2vw;
+}
+
+#subtitle{
+  font-size: 2.8vh;
+}
+
+.details{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.2vw;
+  letter-spacing: 1px;
+}
+
+.buttons{
+  width: max-content;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-right: 3px;
+}
+
+.popup {
+  position: relative;
+  cursor: pointer;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 15vh;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  font-size: 12px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  z-index: 1;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  /* top: 100%;
+  left: 50%; */
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/* container1 */
+
+/* container2 */
+#container2{
+  background-color: #a9c3c1;
+  padding: 3rem;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
+
+#title2{
+  font-size: 5rem;
+  margin-left: 1rem;
+  font-family: 'Oswald', sans-serif;
+  color: aliceblue;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+.col-6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.wireframes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30vw;
+  margin-bottom: 2rem;
+}
+
+.wireframe_text{
+  text-align: center;
+  line-height: 50%;
+  font-family: 'Oswald';
+  letter-spacing: 0.2vw;
+  font-size: 1.8vh;
+}
+
+#container3{
+  background-color: #a9c3b3;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+#research_title{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Oswald';
+  font-size: 4rem;
+}
+
+#pdf{
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.container4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.figma{
+  margin: 1rem;
+}
+
+#title2{
+  text-align: center;
+}
+
+.container5{
+  margin-bottom: 3rem;
+}
+
+.container1{
+  flex-direction: row;
+}

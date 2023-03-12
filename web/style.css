@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Oswald:wght@200&family=Sacramento&display=swap');
+
+body{
+  background-color: #81AE95 ;
+}
+
+ /* navbar, navbar items and logo */
+
+#navbar{
+    font-family: 'Oswald', sans-serif;
+    background-color: #E3F4D1 !important; 
+    box-shadow: 0px 5px 0px 0px #A8D79B;
+}
+
+.line{
+  background-color: #A8D79B;
+  width: 100%;
+  padding: 2px;
+}
+
+#logo{
+font-family: 'Bodoni Moda', serif;
+font-style: italic;
+font-size: 40px;
+color: #185551;
+margin-left: 40px;
+}
+
+.nav-link{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  color: #074f4a;
+  transform: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  }
+
+
+.container-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar-button{
+  width: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 1rem;
+  color: #053d39;
+}
+
+.rows{
+  background-color: #F0F0F0;
+  padding: 1%;
+  width: 90vw;
+  border-radius: 15px;
+  box-shadow: 8px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.detail-list {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding-top: 0.5vh;
+  justify-content: left;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 7vh;
+  /* align-items: flex-start; */
+}
+
+.detail-item {
+  list-style: none;
+  /* text-align: center;
+  font-family: "Oswald", sans-serif; */
+  float: left;
+  /* font-size: 13px; */
+  margin-right: 5vw;
+}
+
+.detail-pic{
+  width: 10rem;
+  float: left;
+  border-radius: 6px;
+}
+
+.detail-h1{
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 4vh;
+}
+
+.detail-p{
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 13px;
+}
+
+#web-dev-title{
+  font-family: 'oswald';
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#web-dev-sub{
+  font-family: 'oswald';
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

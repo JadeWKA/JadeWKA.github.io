@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Oswald:wght@200&family=Sacramento&display=swap');
+
+body{
+  background-color: #81AE95 ;
+}
+
+ /* navbar, navbar items and logo */
+
+#navbar{
+    font-family: 'Oswald', sans-serif;
+	  background-color: #E3F4D1 !important; 
+    box-shadow: 0px 5px 0px 0px #A8D79B;
+}
+
+.line{
+  background-color: #A8D79B;
+  width: 100%;
+  padding: 2px;
+}
+
+#logo{
+font-family: 'Bodoni Moda', serif;
+font-style: italic;
+font-size: 40px;
+color: #185551;
+margin-left: 40px;
+}
+
+.nav-link{
+  font-family: 'Oswald', sans-serif;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  color: #074f4a;
+  transform: all 1s;
+  transform-origin: 50% 50%;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
+  }
+
+
+.container-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar-button{
+  width: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 1rem;
+  color: #053d39;
+}
+
+/* navbar, navbar items and logo */
+
+
+/* general setting of class container */
+.container{
+  width: 100%;
+}
+/* general setting of class container */
+
+
+/* container 1 */
+#container1{
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* margin-bottom: 2vh; */
+    background-color: peachpuff;
+    padding: 2vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px 0 #686868;
+    width: 90vw;
+}
+
+#intro{
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-size: 3.8vw;
+    color: #053d39;
+    margin-top: 1vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    white-space: initial;
+}
+
+
+.card {
+  position: relative;
+  display: inline-block;
+  width: min-content;
+  height: min-content;
+  border-radius: 50%;
+}
+.card .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img-top {
+  display: inline;
+}
+
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro-details{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+    color: #053d39;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    white-space: initial;
+    text-align: center;
+}
+
+#more-about-me{
+    font-family: 'Oswald', sans-serif;
+	  background-color: #D39090;
+    border: none;
+    width: fit-content;
+    padding: 0.8vw;
+    border-radius: 5px;
+    margin-top: 2%;
+    align-self: center;
+    margin: auto;
+    font-size: 2.2vw;
+    transform: all 1s;
+    transform-origin: 50% 50%;
+}
+
+#more-about-me:hover {
+transform: scale(1.1);
+background-color: #bb7272;
+}
+
+/* container 1 */
+
+/* container 2 */
+#container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 3%;
+  background-color: #c9edf5;
+  border-radius: 15px;
+  margin-top: 8vw;
+  padding: 2rem;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px 0 #686868;
+  width: 90vw;
+}
+
+#column2{
+  margin-left: 4vw;
+}
+
+#nyhk-title{
+  font-family: "Bodoni", serif;
+  font-size: 6vw;
+  text-align: center;
+  color: #053d39;
+}
+
+#nyhk-subtitle{
+  font-family: 'Bodoni Moda', serif;
+  font-size: 2vw;
+  text-align: center;
+  color: #5a7f7c;
+  margin-bottom: 2rem;
+}
+
+#nyhk-intro{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2vw;
+  line-height: 200%;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+#nyhk-img{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  transition: 0.5s;
+}
+
+#nyhk-img:hover{
+  transform: rotate(-5deg);
+}
+
+/* container 3 */
+
+#container3{
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5vw;
+  background-color: #cef9f5;
+  font-family: 'Bodoni', serif;
+  box-shadow: 0 4px 10px 0 #292929;
+}
+
+#column3{
+  width: 85vw;
+  margin: 0 auto;
+}
+
+#about-me{
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-family: 'Bradley Hand';
+  font-size: 5vw;
+  color: #053d39
+}
+
+/* #about-me-title{
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 1.2rem;
+  margin-bottom: 5vh;
+} */
+
+#about-me-details{
+  font-family: 'Bodoni', serif;
+  font-size: 2.3vh;
+  line-height: 120%;
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#skills-text{
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration-line: underline;
+  margin-bottom: 2rem;
+  color: #053d39;
+  font-family: "oswald", sans-serif;
+  letter-spacing: 0.25rem;
+}
+
+.skills{
+  width: 5rem;
+  height: 3.2rem;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  margin-bottom: 5vh;
+  transition: 0.2s;
+}
+
+.skills:hover{
+  transform: scale(1.5);
+}
+
+/* container 3 */
+
+/* container 4 */
+
+#container4{
+  padding-top: 4vh;
+  padding-bottom: 5vh;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#PC{
+  transform: rotate(-20deg);
+  transition: 0.5s;
+}
+
+#PC:hover{
+  transform: rotate(-10deg);
+  transform: scale(1.2);
+}
+
+#phone{
+  transform: rotate(20deg);
+  transition: 0.5s;
+  margin-left: 2rem;
+}
+
+#phone:hover{
+  transform: rotate(10deg);
+  transform: scale(1.2);
+}
+
+#row3{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#column4{
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.contacts{
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+#contact-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+    color: #053d39;
+    margin-top: 5vh;
+}
+
+#contact-details{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5vw;
+  color: #053d39;
+}
+
+.contact{
+  font-family: "oswald", sans-serif;
+  letter-spacing: 0.1vw;
+  color: #053d39;
+  text-decoration: none;
+}
+
+#contacts-column{
+  transition: 0.5s;
+}
+
+#contacts-column:hover{
+  transform: scale(1.3);
+}
+
+#row2{
+  display: flex;
+  justify-content: center;
+  margin-right: 2vw;
+}
